@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <link rel="icon" type="" href="assets/favicon.png" />
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+    </head>
+    <body>
+        <header>
+            <h2 class="logo"><img src="assets/logo.png" alt="logo" width="150px"></h2>
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <button class="btnLogin-popup">Login</button>
+            </nav>
+        </header>
+        <section>
+            <div class="form-box">
+                <span class="icon-close"><img src="assets/close.png" alt=""></span>
+                <div class="form-value">
+                    <h2>Login</h2>
+                    <form action="login.php">
+                        <div class="inputbox">
+                            <img src="assets/email.png" alt="">
+                    <input name="Usuario"type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <img src="assets/senha.png" alt="">
+                            <input name="senha" type="password" required>
+                            <label>Senha</label>
+                        </div>
+                        <div class="forget">
+                            <label><input type="checkbox">Lembre de Mim</label>
+                        </div>
+                        <button class="btn">Entrar</button>
+                        <div class="register">
+                            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-register">
+                    <h2>Registrar</h2>
+                    <form action="cadastro.php">
+                        <div class="inputbox">
+                            <img src="assets/user.png" alt="">
+                            <input type="text" required>
+                            <label>Nome de Usuário</label>
+                        </div>
+                        <div class="inputbox">
+                            <img src="assets/email.png" alt="">
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <img src="assets/senha.png" alt="">
+                            <input type="password" required>
+                            <label>Senha</label>
+                        </div>
+                        <div class="forget">
+                            <a href="termos.html"><input type="checkbox"><label>Eu li e aceito os Termos & Condições</label></a>
+                        </div>
+                        <button class="btn">Registrar</button>
+                        <div class="login">
+                            <p>Já tem uma conta? <a href="#">Faça Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="banco.php">
+    </body>
+</html>

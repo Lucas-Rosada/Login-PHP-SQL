@@ -1,0 +1,10 @@
+body{
+    color: aliceblue;
+    background: url(assets/backgroundhom2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
